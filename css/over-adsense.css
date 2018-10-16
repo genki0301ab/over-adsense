@@ -1,0 +1,120 @@
+.over-adsense-wrapper {
+  z-index: 99999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.over-adsense-wrapper .over-adsense {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.over-adsense-wrapper .over-adsense .close-button {
+  z-index: 9999999999;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: block;
+  background-color: #000;
+  -webkit-box-shadow: 0px 0px 1px 1px #000;
+  box-shadow: 0px 0px 1px 1px #000;
+  cursor: pointer;
+}
+
+.over-adsense-wrapper .over-adsense .close-button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 3px;
+  display: bclok;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.over-adsense-wrapper .over-adsense .close-button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 3px;
+  display: bclok;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media screen and (max-width: 769px) {
+  .over-adsense-wrapper {
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .over-adsense-wrapper .over-adsense {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .over-adsense-wrapper .over-adsense .close-button {
+    z-index: 9999999999;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: block;
+    background-color: #000;
+    -webkit-box-shadow: 0px 0px 1px 1px #000;
+    box-shadow: 0px 0px 1px 1px #000;
+    cursor: pointer;
+  }
+  .over-adsense-wrapper .over-adsense .close-button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 3px;
+    display: bclok;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .over-adsense-wrapper .over-adsense .close-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 3px;
+    display: bclok;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

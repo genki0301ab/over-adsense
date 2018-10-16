@@ -1,0 +1,22 @@
+.error {
+  display: none;
+}
+
+.settings-wrapper {
+  margin: 10px 20px 10px 0px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.settings-wrapper h2 {
+  padding: 0px 10px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #303030;
+}
+
+.settings-wrapper .form-wrapper .settings-form .textarea__adsense-tag {
+  width: 100%;
+  min-height: 150px;
+}
